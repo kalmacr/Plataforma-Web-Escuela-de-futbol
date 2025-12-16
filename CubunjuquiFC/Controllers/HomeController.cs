@@ -17,6 +17,10 @@ namespace CubunjuquiFC.Controllers
         {
             return View();
         }
+        public IActionResult IA()
+        {
+            return View();
+        }
 
         public IActionResult Becas()
         {
