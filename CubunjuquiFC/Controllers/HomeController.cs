@@ -18,7 +18,51 @@ namespace CubunjuquiFC.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Becas()
+        {
+            return View();
+        }
+        public IActionResult BolsaEmpleo()
+        {
+            return View();
+        }
+        public IActionResult Entrenadores()
+        {
+            return View();
+        }
+        public IActionResult HistorialJugador()
+        {
+            return View();
+        }
+        public IActionResult Inventario()
+        {
+            return View();
+        }
+        public IActionResult Login()
+        {
+            return View();
+        }
+        public IActionResult Noticias()
+        {
+            return View();
+        }
+        public IActionResult Notificaciones()
+        {
+            return View();
+        }
+        public IActionResult Patrocinadores()
+        {
+            return View();
+        }
+        public IActionResult recuperaContraseña()
+        {
+            return View();
+        }
+        public IActionResult Registro()
+        {
+            return View();
+        }
+        public IActionResult roles()
         {
             return View();
         }
