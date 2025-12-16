@@ -1,5 +1,6 @@
-html {
+﻿html {
   font-size: 14px;
+  color:darkseagreen;
 }
 
 @media (min-width: 768px) {
@@ -16,7 +17,27 @@ html {
   position: relative;
   min-height: 100%;
 }
-
 body {
-  margin-bottom: 60px;
+    background-color : #4cb167;
+    
 }
+
+
+.table {
+    border-radius: 20px !important;
+    overflow: hidden !important; /* necesario para que las esquinas afecten a las filas */
+   
+    background-color: darkseagreen !important;
+}
+h2 {
+    /*color: #b5cfe8;*/ /* Azul oscuro institucional */
+    font-weight: 700;
+    color: #0b4169;
+    background-color: aliceblue;
+    border-radius: 5px;
+    display: inline-block; /* 🔥 Esto hace que el fondo se ajuste al texto */
+    padding: 4px
+    /*color: #528cc3;*/
+}
+
+

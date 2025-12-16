@@ -1,0 +1,43 @@
+﻿@* Registro.cshtml *@
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 90vh;">
+    <div class="card p-4 shadow-sm" style="width: 420px;">
+        <h2 class="text-center mb-4">Crear Cuenta</h2>
+
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Nombre completo</label>
+                <input type="text" class="form-control" placeholder="Tu nombre">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Correo</label>
+                <input type="email" class="form-control" placeholder="correo@ejemplo.com">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Contraseña</label>
+                <input type="password" class="form-control" placeholder="********">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Confirmar contraseña</label>
+                <input type="password" class="form-control" placeholder="********">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Tipo de usuario</label>
+                <select class="form-select">
+                    <option>Padre / Encargado</option>
+                    <option>Entrenador</option>
+                    <option>Administrador</option>
+                </select>
+            </div>
+
+            <button class="btn btn-success w-100">Registrarse</button>
+
+            <div class="text-center mt-3">
+                <a href="/Account/Login" class="text-info">¿Ya tienes cuenta? Inicia sesión</a>
+            </div>
+        </form>
+    </div>
+</div>

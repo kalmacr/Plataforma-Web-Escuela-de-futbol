@@ -1,0 +1,28 @@
+﻿@* Login.cshtml *@
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card p-4 shadow-sm" style="width: 380px;">
+        <h2 class="text-center mb-4">Iniciar Sesión</h2>
+
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Correo</label>
+                <input type="email" class="form-control" placeholder="usuario@escuelita.com">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Contraseña</label>
+                <input type="password" class="form-control" placeholder="********">
+            </div>
+
+            <button class="btn btn-success w-100 mb-3">Ingresar</button>
+
+            <div class="text-center">
+                <a href="/Account/ForgotPassword" class="text-light">¿Olvidaste tu contraseña?</a>
+            </div>
+
+            <div class="text-center mt-2">
+                <a href="/Account/Registro" class="text-info">Crear una cuenta</a>
+            </div>
+        </form>
+    </div>
+</div>

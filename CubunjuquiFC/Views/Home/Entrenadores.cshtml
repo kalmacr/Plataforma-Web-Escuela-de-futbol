@@ -1,0 +1,60 @@
+﻿@* Entrenadores.cshtml *@
+<h2 class=" mb-4">Gestión de Entrenadores</h2>
+
+<div class="card p-3 shadow-sm mb-4">
+    <div class="d-flex justify-content-between mb-3">
+        <input type="text" class="form-control w-25" placeholder="Buscar entrenador...">
+        <a href="#" class="btn btn-success">+ Nuevo Entrenador</a>
+    </div>
+
+    <table class="table table-striped">
+        <thead class="bg-dark text-white">
+            <tr><th>Nombre</th><th>Especialidad</th><th>Categoría Asignada</th><th>Contacto</th><th>Acciones</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>José Ramírez</td>
+                <td>Fútbol Base</td>
+                <td>U12</td>
+                <td>jramirez@escuelita.com</td>
+                <td>
+                    <button class="btn btn-sm btn-info">Editar</button>
+                    <button class="btn btn-sm btn-danger">Eliminar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>María López</td>
+                <td>Preparación Física</td>
+                <td>U15</td>
+                <td>mlopez@escuelita.com</td>
+                <td>
+                    <button class="btn btn-sm btn-info">Editar</button>
+                    <button class="btn btn-sm btn-danger">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Asignación de categorías -->
+<div class="card p-3 shadow-sm">
+    <h5>Asignar Entrenadores a Categorías</h5>
+
+    <table class="table table-striped">
+        <thead class="bg-dark text-white">
+            <tr><th>Categoría</th><th>Entrenador Actual</th><th>Acción</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>U12</td>
+                <td>José Ramírez</td>
+                <td><button class="btn btn-sm btn-outline-success">Cambiar</button></td>
+            </tr>
+            <tr>
+                <td>U15</td>
+                <td>María López</td>
+                <td><button class="btn btn-sm btn-outline-success">Cambiar</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

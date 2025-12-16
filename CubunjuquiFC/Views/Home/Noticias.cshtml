@@ -1,0 +1,61 @@
+﻿@* Publicaciones.cshtml *@
+<h2 class=" mb-4">Noticias y Publicaciones</h2>
+
+<div class="row g-4">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+
+            <img src="https://as1.ftcdn.net/v2/jpg/04/35/59/42/1000_F_435594214_tH6qHg9O0aRmmmpP8Pgore335vahUP8E.jpg" class="card-img-top" alt="Foto noticia">
+            <div class="card-body">
+                <h5 class="card-title">Campeonato U12</h5>
+                <p class="card-text">Nuestro equipo U12 ganó el torneo regional con gran esfuerzo.</p>
+                <a href="#" class="btn btn-success">Leer más</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="ratio ratio-16x9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9sIzUc0LqLI?si=xiIRuCDUchA7sCjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Video destacado</h5>
+                <p class="card-text">Revive los mejores momentos del partido final.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3 class="mt-5 text-secondary">Patrocinadores</h3>
+<table class="table table-striped shadow-sm">
+    <thead class="bg-dark text-white">
+        <tr><th>Nombre</th><th>Sector</th><th>Contacto</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>Supermercado Cubujuqui</td><td>Alimentos</td><td>super@cubujuqui.com</td></tr>
+        <tr><td>Banco Verde</td><td>Finanzas</td><td>info@bancoverde.com</td></tr>
+    </tbody>
+</table>
+
+<h3 class="mt-5 text-secondary">Bolsa de Empleo</h3>
+<div class="card p-3 shadow-sm">
+    <form>
+        <div class="mb-3">
+            <label class="form-label">Nombre completo</label>
+            <input type="text" class="form-control" placeholder="Tu nombre">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Correo</label>
+            <input type="email" class="form-control" placeholder="tuemail@ejemplo.com">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Área de interés</label>
+            <select class="form-select">
+                <option>Entrenador</option>
+                <option>Asistente</option>
+                <option>Administración</option>
+            </select>
+        </div>
+        <button class="btn btn-success">Enviar solicitud</button>
+    </form>
+</div>
