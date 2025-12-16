@@ -1,0 +1,82 @@
+﻿@* Becas.cshtml *@
+<h2 class=" mb-4">Gestión de Becas</h2>
+
+<!-- Solicitudes de beca -->
+<div class="card p-3 shadow-sm mb-4">
+    <div class="d-flex justify-content-between mb-3">
+        <h5>Solicitudes de Beca</h5>
+        <a href="#" class="btn btn-success">+ Nueva Solicitud</a>
+    </div>
+
+    <table class="table table-striped">
+        <thead class="bg-dark text-white">
+            <tr><th>Jugador</th><th>Categoría</th><th>Motivo</th><th>Estado</th><th>Acciones</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Carlos Méndez</td>
+                <td>U12</td>
+                <td>Dificultad económica</td>
+                <td><span class="badge bg-warning">Pendiente</span></td>
+                <td>
+                    <button class="btn btn-sm btn-info">Revisar</button>
+                    <button class="btn btn-sm btn-danger">Eliminar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Lucía Fernández</td>
+                <td>U15</td>
+                <td>Familia numerosa</td>
+                <td><span class="badge bg-success">Aprobada</span></td>
+                <td>
+                    <button class="btn btn-sm btn-info">Revisar</button>
+                    <button class="btn btn-sm btn-danger">Eliminar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Elias Vargas</td>
+                <td>U9</td>
+                <td>Familia numerosa</td>
+                <td><span class="badge bg-warning">Pendiente</span></td>
+                <td>
+                    <button class="btn btn-sm btn-info">Revisar</button>
+                    <button class="btn btn-sm btn-danger">Eliminar</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Ismael Gamboa</td>
+                <td>U9</td>
+                <td>Dificultad económica</td>
+                <td><span class="badge bg-success">Aprobada</span></td>
+                <td>
+                    <button class="btn btn-sm btn-info">Revisar</button>
+                    <button class="btn btn-sm btn-danger">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Becas activas -->
+<div class="card p-3 shadow-sm">
+    <h5>Becas Activas</h5>
+    <table class="table table-striped">
+        <thead class="bg-dark text-white">
+            <tr><th>Jugador</th><th>Categoría</th><th>Tipo de Beca</th><th>Vigencia</th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lucía Fernández</td>
+                <td>U15</td>
+                <td>50% mensualidad</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>Ismael Gamboa</td>
+                <td>U9</td>
+                <td>100% mensualidad</td>
+                <td>2025</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
